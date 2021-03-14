@@ -13,8 +13,10 @@
 
 group_size=input() 
 room_list=input().split()
-s1=set()  #all unique room number
-s2=set()  #all unique room number occur more than once
+#all unique room number
+s1=set() 
+#all unique room number occur more than once
+s2=set()  
 for i in room_list:
     if  i in s1:
         s2.add(i)
